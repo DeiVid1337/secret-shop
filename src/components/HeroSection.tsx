@@ -14,7 +14,7 @@ export function HeroSection() {
         transition={{ 
           duration: 3.8, 
           ease: "linear", 
-          repeat: Infinity, 
+          repeat: 0, 
           repeatType: "reverse" 
         }}
         className="absolute inset-0 w-full h-full object-cover"
