@@ -12,7 +12,7 @@ export function HeroSection() {
         initial={{ scale: 1 }}
         animate={{ scale: 1.1 }}
         transition={{ 
-          duration: 20, 
+          duration: 3.8, 
           ease: "linear", 
           repeat: Infinity, 
           repeatType: "reverse" 
