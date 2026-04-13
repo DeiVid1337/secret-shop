@@ -1,14 +1,13 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import heroBg from "@/assets/hero-bg.jpg";
 
 export function HeroSection() {
-  const heroImageUrl = "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=1920";
-
   return (
     <section className="relative h-[85vh] min-h-[500px] flex items-center justify-center overflow-hidden">
       <motion.img
-        src={heroImageUrl}
+        src={heroBg}
         alt="Secret Shop"
         initial={{ scale: 1 }}
         animate={{ scale: 1.1 }}
